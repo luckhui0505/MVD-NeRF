@@ -19,9 +19,9 @@ Changing the data path and log path in the configs/demo_blurball.txt
 python3 run_nerf.py --config configs/demo_blurball.txt
 
 ## Method Overview
-![image](https://github.com/luckhui0505/MVD-NeRF/framework/framework.jpg) 
+![image](./framework/framework.jpg) 
 ## Comparison of Experimental Results
-![image](https://github.com/luckhui0505/MP-NeRF/blob/master/result.jpg) 
+![image](./framework/result.jpg) 
 ## Some Notes
 ### GPU Memory
 We train our model on a RTX3090 GPU with 24GB GPU memory. If you have less memory, setting N_rand to a smaller value, or use multiple GPUs.
